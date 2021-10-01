@@ -1,0 +1,46 @@
+.navbar {
+  width: 100%;
+  background-color: #12113d;
+  height: 60px;
+  position: fixed;
+  z-index: 5;
+}
+.navbar_container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.logo {
+  height: 60px;
+}
+.btn {
+  padding: 0.5em 1em;
+  margin-right: 2em;
+  border: none;
+}
+.signIn {
+  background-color: #9844fb;
+  color: white;
+}
+.signUp {
+  background-color: #7879f1;
+  color: white;
+}
+@media (max-width:480px){
+  .navbar {
+    height: fit-content;
+  }
+  .logo{
+    height: 3.8em;
+  }
+  .btn{
+    font-size: .8em;
+    margin-right: 2em;
+    cursor: pointer;
+  }
+}

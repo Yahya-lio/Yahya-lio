@@ -1,0 +1,47 @@
+.forhow{
+    width: 100%;
+}
+.forhow_container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.forhow-component{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    background-color: #FFB859;
+    border-radius: 10px;
+    padding: 1em 0px;
+    margin-bottom: 4em;
+}
+.card{
+    width: 200px;
+    max-width: 100%;
+    margin: .8em;
+    border: 1px solid lightgray;
+    padding: .8em;
+    background-color: white;
+    height: 350px;
+}
+.card > img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+}
+.answer{
+    padding-right: 40%;
+    margin: 2em 0em;
+    letter-spacing: .4em;
+    font-weight: bold;
+    color: #E33DE3;
+}
+@media (max-width:480px){
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+}

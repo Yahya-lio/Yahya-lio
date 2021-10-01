@@ -1,0 +1,86 @@
+.gatagores{
+    width: 100%;
+}
+.gatagores_container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(207, 95, 54);
+    padding: 1.5em 0px;
+    border-radius: 10px;
+}
+.gatagore{
+    text-align: left;
+    padding: 3em 0em;
+    letter-spacing: .2em;
+}
+.clean{
+    background-color: white;
+}
+.gatagores_card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 3em;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: 1em 0px;
+}
+.gatagore_card_head{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    height:200px ;
+    margin: auto;
+}
+.gatagore_card_head > img{
+    border-radius: 10px;
+}
+.gatagore_card_head > .top{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.gatagore_card_head > .center{
+    position: absolute;
+    left: 36%;
+    z-index: 1;
+}
+.gatagore_card_head > .bottom{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+}
+
+.gatagore_card_body{
+    flex: 1.6;
+    min-width: 300px;
+    padding: 0px 1em;
+}
+.gatagore_card_body > h2{
+    text-align: left;
+    color: rgb(207, 95, 54);
+}
+@media (max-width:738px){
+    .gatagores_card{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width:500px){
+    .gatagores_card{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .gatagore_card_head{
+        width: 100%;
+    }
+    .gatagore_card_head > img{
+        width: 120px;
+    }
+    .gatagore_card_body{
+        width: 100%;
+    }
+}

@@ -1,0 +1,131 @@
+.auth{
+    width: 100%;
+}
+.auth_container{
+    width: 100%;
+    max-width: 1290px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 100%;
+}
+.auth__img{
+    height: 100vh;
+    width: 30%;
+}
+.auth__img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.auth__form{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.auth__form > h1{
+    text-align: center;margin-bottom: 3em;
+}
+
+.auth_form_container{
+    width: 40%;
+    min-height: 40%;
+}
+.form_auth  input{
+    margin: .8em 0px;
+}
+.signin{
+    height: 100%;
+}
+.signIn__container{
+    padding: 1em;
+    height: 100%;
+}
+.form_auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.form_auth > span{
+    margin-left: .2em;
+}
+.signin_btn{
+    display: inherit;
+    width: fit-content;
+    padding: 1em 2em;
+    background-color: #5d544f;
+    color: white;
+}
+.navegate_auth{
+    padding:1em 2em ;
+    border: none;
+    margin: .3em;
+    cursor: pointer;
+}
+
+/* sign up */
+.signup{
+    height: 100%;
+}
+.signup__container{
+    padding: 1em;
+    height: 100%;
+}
+.form_auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.form_auth > span{
+    margin-left: .2em;
+}
+.signup_btn{
+    display: inherit;
+    width: fit-content;
+    padding: 1em 2em;
+    background-color: #5d544f;
+    color: white;
+}
+.navegate_auth{
+    padding:1em 2em ;
+    border: none;
+    margin: .3em;
+    cursor: pointer;
+}
+.signup_names{
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.signup_names :nth-child(2){
+    margin-bottom: .6em;
+}
+
+.navegate_auth.auth_navegate_color{
+    background-color: #fb685d;
+}
+
+@media (max-width:720px){
+    .auth__img, .auth__img > img{
+        display: none;
+    }
+    .auth__form{
+        width: 100%;
+    }
+}
+@media (max-width:550px){
+    .auth_form_container{
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+    }
+}
